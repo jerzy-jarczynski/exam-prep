@@ -2,13 +2,13 @@ $blue: #00aaaa;
 $green: #00aa00;
 $orange: #ff7700;
 
-a {
-  color: $blue;
-}
-
 .logo {
   color: $green;
   font-weight: bold;
+}
+
+a {
+  color: $blue;
 }
 
 .main-nav {
@@ -16,5 +16,11 @@ a {
     color: $orange;
     text-decoration: none;
     border-bottom: 3px dotted #000;
+
+    &.logo {
+      color: $blue;
+      text-decoration: underline;
+      border: none;
+    }
   }
 }
