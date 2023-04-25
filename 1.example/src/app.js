@@ -14,7 +14,7 @@ export function sumSeconds(input){
   }
 
   if(sum >= 60*60) {
-    output = Math.floor(sum/60) + 'h' + output;
+    output = Math.floor(sum/3600) + 'h' + output;
   }
 
   console.log('input', input, 'gives sum', sum, 'and output', output);
